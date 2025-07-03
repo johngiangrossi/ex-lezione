@@ -9,9 +9,18 @@ public class App6 {
         int[] a = { 1, 2, 3, 4, 5};
 
         for (int i = (a.length - 1); i > 0; i--) {
+
             int result = a[i];
 
             System.out.println(result);
+        }
+
+        for (int i = 0; i < a.length; i++) {
+
+            int reverseIndex = a.length - 1 - i;
+            int resultReversed = a[reverseIndex];
+
+            System.out.println(resultReversed);
         }
     }
 }
