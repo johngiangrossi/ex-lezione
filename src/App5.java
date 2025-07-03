@@ -1,10 +1,10 @@
-public class App4 {
+public class App5 {
     public static void main(String[] args) {
-        /*4) 
-        Trova il massimo
-        Obiettivo: Trova il valore massimo all'interno di un array di interi.
+        /*5) 
+        Trova il minimo
+        Obiettivo: Trova il valore minimo all’interno di un array.
         Esempio: int [] a = {1, 2, 3, 4, 5}
-        Output: 5 */
+        Output: 1 */
 
         int[] a = { 1, 2, 3, 4, 5 };
 
@@ -15,7 +15,7 @@ public class App4 {
 
             System.out.println(number);
 
-            if (number > maxNumber) {
+            if (number < maxNumber) {
                 maxNumber = number;
             }
         }
